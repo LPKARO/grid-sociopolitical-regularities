@@ -1,36 +1,34 @@
-# 🌐 Grid of Sociopolitical Regularities (v1.0)
+# ⚔️ Confrontation Grid (v1.0)
 
-This is an open-source interactive tool for exploring how personal experience intersects with institutional and sociopolitical forces. Inspired by the work of Foucault, Scheurich, and Neely Fuller Jr., the project invites users to score intersections between sociopolitical **Objects** (e.g. EDUCATION, MILITARY) and **Attributes** (e.g. GENDER, CLASS), then generates a visual and narrative output of their results.
+This interactive tool explores how institutions and sociopolitical forces shape lived experience. Inspired by Isaac Torres’ genealogical research on dropouts, Foucauldian power, and Scheurich’s policy archaeology, the project enables users to confront how societal **Forces** impact them through **Conditions** like gender, class, or ideology.
 
-## 🚀 Try It
-👉 [Live Demo](https://LPKARO.github.io/grid-sociopolitical-regularities) *(Coming soon)*
+## 🔍 Explore the Grid
+👉 [Live Demo](https://LPKARO.github.io/grid-sociopolitical-regularities) *(Upload first)*
 
-## 📊 Project Features
-- Interactive **Object x Attribute grid** scoring interface
-- JSON output for each anonymous submission
-- AI-generated animation prompts based on scores
-- Dynamic visual display of results
-- Public lattice archive (planned)
+## 🧱 Grid Structure
 
-## 📁 Folder Structure
-/public      → Static assets  
-/src         → Main app logic (HTML, JS)  
-/data        → Sample submission data  
+- **Forces (Rows):**
+  - Education, Religion, Military, Labor, Race, Economy, Media, Politics
 
-## ✨ Future Vision
-- AI-generated animations for each user's score
-- Data dashboard of submission patterns
-- Public “constellation” of sociopolitical identity
+- **Conditions (Columns):**
+  - Gender, Subaltern, Justice, Governmentality, Ideology, Class, Professionalization, Consciousness
 
-## 🛠️ Contributing
-We welcome collaborators in:
-- Frontend/JS dev
-- Backend/database setup
-- AI prompt and animation generation
-- Critical theory / policy analysis
+Users check intersections that resonate with their experience.
 
-Email: thepicaroseat@gmail.com  
-Maintainer: Isaac Torres (Eyeball Torrez)
+## 📁 File Structure
 
-## 📜 License
-MIT License – Free to use, remix, or extend.
+- index.html – interactive UI
+- style.css – visual layout
+- grid.js – logic for grid generation and result capture
+- README.md – project overview
+
+## 🌱 Future Development
+
+- Collect anonymous score data
+- Generate animation prompts from user patterns
+- Visualize aggregate data over time
+- Compare Dropout vs Graduate experience groups
+
+## 🧠 Author
+Eyeball Torrez (Isaac Torres) – thepicaroseat@gmail.com  
+Maintained under MIT License

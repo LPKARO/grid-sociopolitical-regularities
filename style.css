@@ -2,5 +2,4 @@ body { font-family: sans-serif; margin: 2rem; }
 table { border-collapse: collapse; width: 100%; }
 th, td { border: 1px solid #ccc; padding: 0.5rem; text-align: center; }
 th.rotate { writing-mode: vertical-rl; transform: rotate(180deg); padding: 0.25rem; }
-.header-row th { background-color: #f0f0f0; }
 button { margin-top: 1rem; padding: 0.75rem 1.5rem; font-size: 1rem; }
